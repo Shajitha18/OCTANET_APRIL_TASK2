@@ -82,21 +82,6 @@
                    li.className= "todo-item";
                    li.innerHTML=
                       <input type="checkbox">
-                      <span>${newTodoInput.value}</span>
-                      <button onclick="removeTodo(this)">Remove</button>
-                   ;
-                  todoList.appendChild(li);
-                  newTodoInput.value="";
-              }
-          }
-
-          function removeTodo(button) {
-              const todoItem=button.parentElement;
-              todoItem.remove();
-          }
-    </script>
-
-    </body>
-    </html>
+       
 
         
